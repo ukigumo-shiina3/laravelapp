@@ -13,4 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/hello/{id?}', 'App\Http\Controllers\HelloController@index');
+Route::get('/hello/', 'App\Http\Controllers\HelloController@index');
+Route::post('/hello/', 'App\Http\Controllers\HelloController@post');
