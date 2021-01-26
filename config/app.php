@@ -175,6 +175,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        // プロバイダとしてアプリケーションに登録
+        App\Providers\HelloServiceProvider::Class
     ],
 
     /*
